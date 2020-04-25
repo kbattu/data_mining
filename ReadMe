@@ -3,6 +3,10 @@ The folder data_mining contains:
 2. two csv files movies.csv and training.csv which are Serendipity 2018 dataset files.
 3. two csv files TrainingDf.csv and TestingDf.csv which were generated while running Prediction.ipynb
 
+Since training.csv file is too large.
+Go to https://grouplens.org/datasets/serendipity-2018/ and download the serendipity-sac2018.zip (182 MB)
+and extract the training.csv file from the folder.
+
 To run the source code files:
 1. install Anaconda3 > open Jupyter Notebook > go to code folder location and 
 2. open the code file to view the code and results.
