@@ -1,0 +1,17 @@
+The folder data_mining contains:
+1. two Jupyter Notebook files Recommendation.ipynb and Prediction.ipynb
+2. two csv files movies.csv and training.csv which are Serendipity 2018 dataset files.
+3. two csv files TrainingDf.csv and TestingDf.csv which were generated while running Prediction.ipynb
+
+To run the source code files:
+1. install Anaconda3 > open Jupyter Notebook > go to code folder location and 
+2. open the code file to view the code and results.
+Or run the code cell by cell to execute the code.
+
+Recommendation.ipynb -- It contains the code which recommends the top N similar movies for a given movie.
+Prediction.ipynb -- It contains the code for K-means Clustering and prediction of a movie for the test set users.
+{This file generates TrainingDf.csv and Testing.csv if the compute variable in the cell(In [22]) is set to True or
+ else it uses the ones which are generated when i have run the code.}
+
+Before running the files change the folder paths of csv files to the location in your local machine/system. 
+
